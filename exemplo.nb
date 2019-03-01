@@ -1,0 +1,14 @@
+Este comando lista todos os processos do sistema:
+$ ps
+Este comando lista os ficheiros:
+$ ls
+Agora podemos ordenar estes ficheiros:
+$| sort
+E escolher as linhas que possuem a letra "m":
+$| grep m
+E escolher o primeiro:
+$| head -1
+E ainda contar o número de linhas, palavras e bytes existentes no output deste último comando:
+$| wc
+E ainda abrir o manual da função open:
+$ man open
